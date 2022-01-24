@@ -1,0 +1,16 @@
+.footer {
+    margin: 0;
+    padding: 48px 19px 36px;
+}
+
+@media screen and (min-width: 640px) {
+    .footer {
+        padding: 48px 6% 36px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .footer {
+        padding: 67px 200px 60px;
+    } 
+}

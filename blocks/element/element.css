@@ -1,0 +1,7 @@
+.element {
+    margin: 0;
+    background: #FFF;
+    border-radius: 10px;
+    max-width: 620px;
+    min-width: 282px;
+}
