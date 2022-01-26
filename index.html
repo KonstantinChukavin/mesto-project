@@ -10,76 +10,75 @@
 <body class="body">
     <header class="header">
         <img src="./images/header/Vector_logo.svg" class="header__logo" alt="Логотип Место">
-        <div class="header__line"></div>
     </header>
     <section class="profile">
         <img src="./images/profile/Аватар.jpeg" class="profile__avatar" alt="фото профиля">
-        <figure class="profile__info">
-            <figcaption class="profile__info-title">
+        <div class="profile__info">
+            <div class="profile__info-title">
                 <h1 class="profile__title">Константин Чукавин</h1>
-                <button class="profile__edit-button"></button>
-            </figcaption>
+                <button type="button" class="profile__edit-button"></button>
+            </div>
             <p class="profile__subtitle">Невольный исследователь мира</p>
-        </figure>
+        </div>
         <button type="button" class="profile__add-button"></button>
     </section>
-    <article class="elements">
-        <figure class="element">
+    <section class="elements">
+        <article class="element">
             <img class="element__mask" src="./images/elements/Амстердам.jpg" alt="Загружаемое фото">
-            <figcaption class="element__rectangle">
+            <div class="element__rectangle">
                 <h2 class="element__name">Нидерланды, Амстердам, улица Красных фонарей</h2>
-                <button type="button" class="element__hover element_like_active"></button>
-            </figcaption>
-        </figure>
-        <figure class="element">
+                <button type="button" class="element__hover"></button>
+            </div>
+        </article>
+        <article class="element">
             <img class="element__mask" src="./images/elements/Афины2.jpg" alt="Загружаемое фото">
-            <figcaption class="element__rectangle">
+            <div class="element__rectangle">
                 <h2 class="element__name">Греция, Афины</h2>
                 <button type="button" class="element__hover"></button>
-            </figcaption>
-        </figure>
-        <figure class="element">
+            </div>
+        </article>
+        <article class="element">
             <img class="element__mask" src="./images/elements/ОАЭ.jpg" alt="Загружаемое фото">
-            <figcaption class="element__rectangle">
+            <div class="element__rectangle">
                 <h2 class="element__name">ОАЭ, Дубай</h2>
                 <button type="button" class="element__hover"></button>
-            </figcaption>
-        </figure>
-        <figure class="element">
+            </div>
+        </article>
+        <article class="element">
             <img class="element__mask" src="./images/elements/Флоренция.jpg" alt="Загружаемое фото">
-            <figcaption class="element__rectangle">
+            <div class="element__rectangle">
                 <h2 class="element__name">Италия, Флоренция, Золотой мост</h2>
                 <button type="button" class="element__hover"></button>
-            </figcaption>
-        </figure>
-        <figure class="element">
+            </div>
+        </article>
+        <article class="element">
             <img class="element__mask" src="./images/elements/Турция.jpg" alt="Загружаемое фото">
-            <figcaption class="element__rectangle">
+            <div class="element__rectangle">
                 <h2 class="element__name">Турция, Cтамбул</h2>
                 <button type="button" class="element__hover"></button>
-            </figcaption>
-        </figure>
-        <figure class="element">
+            </div>
+        </article>
+        <article class="element">
             <img class="element__mask" src="./images/elements/Вена.jpg" alt="Загружаемое фото">
-            <figcaption class="element__rectangle">
+            <div class="element__rectangle">
                 <h2 class="element__name">Австрия, Вена</h2>
                 <button type="button" class="element__hover"></button>
-            </figcaption>
-        </figure>
-    </article>
+            </div>
+        </article>
+    </section>
     <footer class="footer">
         <p class="footer__copyright">© 2022 Чукавин Константин</p>
     </footer>
-    <section class="popup popup_opened">
-        <form class="popup__container">
-            <button class="popup__button-close"></button>
+    <div class="popup popup_opened">
+        <form class="popup__container" name="form">
+            <button type="button" class="popup__button-close"></button>
             <h3 class="popup__title">Редактировать профиль</h3>
             <fieldset class="popup__fieldset">
                 <input class="popup__field-text" type="text" placeholder="Имя Фамилия" name="name">
                 <input class="popup__field-text" type="text" placeholder="О себе" name="about_subtitle">
-                <button class="popup__submit-button">Сохранить</button>
+                <button type="button" class="popup__submit-button">Сохранить</button>
             </fieldset>
         </form>
-    </section>
+    </div>
 </body>
 </html>

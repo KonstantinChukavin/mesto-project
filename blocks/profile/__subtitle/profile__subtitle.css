@@ -1,9 +1,13 @@
 .profile__subtitle {
     margin: 0;
+    max-width: 80%;
     padding-top: 14px;
     font-size: 14px;
     line-height: 17px;
     text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 @media screen and (min-width: 710px) {
