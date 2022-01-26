@@ -23,6 +23,7 @@
 @import url(../blocks/element/__mask/element__mask.css);
 @import url(../blocks/element/__name/element__name.css);
 @import url(../blocks/element/__rectangle/element__rectangle.css);
+@import url(../blocks/like/like__active.css);
 /*__________________________________________________________*/
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
