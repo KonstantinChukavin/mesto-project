@@ -23,13 +23,13 @@
 @import url(../blocks/element/__mask/element__mask.css);
 @import url(../blocks/element/__name/element__name.css);
 @import url(../blocks/element/__rectangle/element__rectangle.css);
-@import url(../blocks/like/like__active.css);
+@import url(../blocks/element/_like_active/element_like_active.css);
 /*__________________________________________________________*/
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 /*__________________________________________________________*/
 @import url(../blocks/popup/popup.css);
-@import url(../blocks/popup/__opened/popup__opened.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
 @import url(../blocks/popup/__title/popup__title.css);
 @import url(../blocks/popup/__submit-button/popup__submit-button.css);
 @import url(../blocks/popup/__fieldset/popup__fieldset.css);
