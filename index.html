@@ -13,6 +13,7 @@
     <header class="header">
         <img src="./images/header/Vector_logo.svg" class="header__logo" alt="Логотип Место">
     </header>
+
     <section class="profile">
         <img src="./images/profile/Аватар.jpeg" class="profile__avatar" alt="фото профиля">
         <div class="profile__info">
@@ -24,53 +25,15 @@
         </div>
         <button type="button" class="profile__add-button"></button>
     </section>
+
     <section class="elements">
-        <article class="element">
-            <img class="element__mask" src="./images/elements/Амстердам.jpg" alt="Загружаемое фото">
-            <div class="element__rectangle">
-                <h2 class="element__name">Нидерланды, Амстердам, улица Красных фонарей</h2>
-                <button type="button" class="element__hover"></button>
-            </div>
-        </article>
-        <article class="element">
-            <img class="element__mask" src="./images/elements/Афины2.jpg" alt="Загружаемое фото">
-            <div class="element__rectangle">
-                <h2 class="element__name">Греция, Афины</h2>
-                <button type="button" class="element__hover"></button>
-            </div>
-        </article>
-        <article class="element">
-            <img class="element__mask" src="./images/elements/ОАЭ.jpg" alt="Загружаемое фото">
-            <div class="element__rectangle">
-                <h2 class="element__name">ОАЭ, Дубай</h2>
-                <button type="button" class="element__hover"></button>
-            </div>
-        </article>
-        <article class="element">
-            <img class="element__mask" src="./images/elements/Флоренция.jpg" alt="Загружаемое фото">
-            <div class="element__rectangle">
-                <h2 class="element__name">Италия, Флоренция, Золотой мост</h2>
-                <button type="button" class="element__hover"></button>
-            </div>
-        </article>
-        <article class="element">
-            <img class="element__mask" src="./images/elements/Турция.jpg" alt="Загружаемое фото">
-            <div class="element__rectangle">
-                <h2 class="element__name">Турция, Cтамбул</h2>
-                <button type="button" class="element__hover"></button>
-            </div>
-        </article>
-        <article class="element">
-            <img class="element__mask" src="./images/elements/Вена.jpg" alt="Загружаемое фото">
-            <div class="element__rectangle">
-                <h2 class="element__name">Австрия, Вена</h2>
-                <button type="button" class="element__hover"></button>
-            </div>
-        </article>
+
     </section>
+
     <footer class="footer">
         <p class="footer__copyright">© 2022 Чукавин Константин</p>
     </footer>
+
     <div class="popup popup_opened">
         <form class="popup__container" name="form">
             <button type="button" class="popup__button-close"></button>
@@ -82,7 +45,38 @@
             </fieldset>
         </form>
     </div>
-    <script src="./vendor/main.js"></script>
+
+    <div class="popup popup_opened">
+        <form class="popup__container" name="form">
+            <button type="button" class="popup__button-close"></button>
+            <h3 class="popup__title">Новое место</h3>
+            <fieldset class="popup__fieldset">
+                <input class="popup__field-text" type="text" placeholder="Название" name="name">
+                <input class="popup__field-text" type="text" placeholder="Ссылка на картинку" name="about_subtitle">
+                <button type="button" class="popup__submit-button">Сохранить</button>
+            </fieldset>
+        </form>
+    </div>
+
+    <div class="popup" id="popapImage">
+        <div class="popup__container popap-image">
+            <button class="popup__close popup-cloce_cart" id="popapImageClouse" type="button"></button>
+            <img class="popap-image__image" src="" alt="Природа">
+            <h3 class="popap-image__title"></h3>
+        </div>
+    </div>
+
+    <template id="element-item">
+        <article class="element">
+            <img class="element__mask" src="" alt="">
+            <div class="element__rectangle">
+                <h2 class="element__name"></h2>
+                <button type="button" class="element__hover"></button>
+            </div>
+        </article>
+    </template>
+
+    <script src="./script/script.js"></script>
 </body>
 
 </html>
